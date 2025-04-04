@@ -1,24 +1,29 @@
-# ECEN-240
-Collection of digital logic circuit designs and a 4-bit microprocessor implementation for ECEN 240
+# 4-Bit Microprocessor Design
 
-## Course Information
+This project was developed as the final assignment for ECEN 240 at BYU-Idaho. It implements a fully functional 4-bit microprocessor using digital logic modules such as ALU, ROM, registers, and a custom control unit.
 
-* **Course Name:** ECEN 240
-* **Semester:** [Spring 2024]
-* **University:** [Brigham Young University - Idaho]
+## 🧠 Features
+- 4-bit data path
+- Custom instruction set architecture (ISA)
+- ROM-based program storage
+- Arithmetic Logic Unit (ALU)
+- Register File with read/write logic
+- Top-level integration with control signals
 
-## Project Description
+## 🛠 Tech Stack
+- SystemVerilog
+- Vivado (or other simulation tools)
+- GTKWave for waveform analysis
 
-This repository contains the project files for the ECEN 240 course. The project explores fundamental concepts in digital electronics and potentially culminates in the design and implementation of a 4-bit microprocessor.
+## 📁 Project Structure
+- `verilog/`: All SystemVerilog modules and testbenches
+- `docs/`: Final report and documentation
+- `sim/`: Simulation outputs and waveforms
 
-The folders in this repository cover various topics, including:
+## 🚀 Getting Started
+1. Clone the repository
+2. Run simulation using Vivado or ModelSim
+3. View waveform output using GTKWave
 
-* **REGISTER FILES:** [Designs and simulations related to register file implementations.]
-* **COUNTERS:** [Implementations of different types of counters]
-* **LATCHES AND FLIP FLOPS:** [ Designs and analysis of various latch and flip-flop circuits]
-* **4 BIT MICROPROCESSOR DESIGN:** [Files related to the architecture, design, and potential simulation of a 4-bit microprocessor.]
-* **DIGITAL VS ANALOG:** [Materials exploring the differences and conversions between digital and analog signals.]
-* **INVERTERS:** [ Designs and analysis of inverter circuits.]
-* **LOGIC GATES:** [Implementations and truth tables for basic logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR).]
-* **SMALL SCALE ICS:** [ Exploration and usage of small-scale integrated circuits.]
-* **ALU:** [ Design and implementation of an Arithmetic Logic Unit.]
+## 📚 Credits
+Created by Ezra Senanu for ECEN 240: Digital System Design
